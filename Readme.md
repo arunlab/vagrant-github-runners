@@ -17,8 +17,8 @@ vagrant plugin install vagrant-reload
 1. Clone this repository and navigate to the project directory:
 
    ```bash
-   git clone <repository_url>
-   cd <project_directory>
+   git clone https://github.com/arunlab/vagrant-github-runners.git
+   cd vagrant-github-runner
    ```
 
 2. Set the required environment variables by opening the Vagrantfile and updating the values of the following variables:

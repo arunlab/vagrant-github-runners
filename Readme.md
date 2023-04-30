@@ -34,31 +34,18 @@ vagrant plugin install vagrant-reload
 
 2. Set the required environment variables by opening the Vagrantfile and updating the values of the following variables:
 
-   ```ruby
-   # set env vars befor running vagrant
-   # https://docs.gitlab.com/runner/
-   #
-   # export GITLABCI_NAME=my-gitlab-runner
-   # export GITLABCI_URL=https://gitlab-ci.local/
-   # export GITLABCI_TOKEN=changeme
-   # export GITLABCI_EXECUTOR=docker
-   # export GITLABCI_TAGS=''
-   
-   # ...
-   
-   config.vm.provision 'gitlab',
-     type: 'shell',
-     path: 'github-runner.sh',
-     env: {
-       GITHUBCI_NAME: ENV['GITHUBCI_NAME'],
-       GITHUBCI_URL: ENV['GITHUBCI_URL'],
-       GITHUBCI_TOKEN: ENV['GITHUBCI_TOKEN'],
-     }
+   ```bash
+   export GITLABCI_NAME=my-gitlab-runner
+   export GITLABCI_URL=https://gitlab-ci.local/
+   export GITLABCI_TOKEN=changeme
+   export GITLABCI_EXECUTOR=docker
+   export GITLABCI_TAGS=''
    ```
 
 3. Start the VM by running the following command:
 
    ```bash
+   cd 
    vagrant up
    ```
 

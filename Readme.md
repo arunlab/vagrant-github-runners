@@ -6,6 +6,17 @@ This repository contains a Vagrantfile that sets up a virtual machine (VM) for r
 
 ## Prerequisites
 
+### Install Vagrant
+To install Vagrant, please follow the steps below:
+
+1. Go to the [Vagrant downloads page](https://www.vagrantup.com/downloads.html)
+2. Click on the download link for your operating system. 
+3. After downloading the installer, run it and follow the installation instructions.
+4. Once the installation is complete, open a terminal or command prompt and type `vagrant` to verify that Vagrant is installed correctly.
+
+That's it! You now have Vagrant installed on your machine and can use it to create and manage virtual machines.
+
+
 To use this repository, you need to have [Vagrant](https://www.vagrantup.com/) installed on your local machine. You also need to install the `vagrant-reload` plugin by running the following command:
 
 ```bash
